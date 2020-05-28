@@ -1,4 +1,5 @@
-REF: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
+QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
+SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
 
 ## Sources for Information Security News:
    * Various places. Primarily Security Weekly Podcast (Paul Assadorian), google, Krebs On Security (Sometimes) and Daniel Miessler of danielmiessler.com.
@@ -167,6 +168,7 @@ The risk assignment should always be re-evaluated as new technologies, processes
 34. How do you balance demands from different stakeholders who have conflicting requirements?
 
 35. What is layered security architecture? Is it a good approach? Why?
+    * Layered security, also known as layered defense, describes the practice of combining multiple mitigating security controls to protect resources and data.
 
 36. Have you designed security measures that span overlapping information domains? Can you give me a brief overview of the solution?
 
@@ -175,16 +177,19 @@ The risk assignment should always be re-evaluated as new technologies, processes
 38. How do you ensure that a design achieves regulatory compliance?
 
 39. What is capability-based security? Have you incorporated this pattern into your designs? How?
+    * Capability-based security refers to the principle of designing user programs such that they directly share capabilities with each other according to the principle of least privilege, and to the operating system infrastructure necessary to make such transactions efficient and secure.
 
 40. Can you give me a few examples of security architecture requirements?
+    * https://www.isaca.org/resources/isaca-journal/issues/2017/volume-4/enterprise-security-architecturea-top-down-approach
 
 41. Who typically owns security architecture requirements and what stakeholders contribute?
 
 42. What special security challenges does SOA present?
+    * Service Oriented Architecture (SOA) is a new way of operating a network system, and as with all new technologies, it comes with its share of challenges. Of particular difficulty is the challenge of securing a service-oriented system. Due to the intentionally decentralized nature of this system, data flows in all directions and needs to be protected at all times. Additionally, to implement access control it must be first defined somewhere, and the rest of the system needs to be aware of the rules and respect them. Since there are many resources in such a system, it becomes cumbersome to require users to authenticate themselves every time they attempt to access a new resource.
 
 43. What security challenges do unified communications present?
 
-44. Do you take a different approach to security architecture for a COTS vs a custom solution?
+44. Do you take a different approach to security architecture for a commercial off-the-shelf (COTS) vs a custom solution?
 
 45. Have you architected a security solution that involved SaaS components? What challenges did you face?
 
@@ -213,6 +218,9 @@ The risk assignment should always be re-evaluated as new technologies, processes
 56. Can you explain the difference between a packet filtering firewall and a application layer firewall?
 
 57. What are the layers of the OSI model?
+
+57. How would traceroute help you find out where a breakdown in communication is?
+    * Traceroute uses the TTL field in an IP header of a packet to determine how many "hops" a packet as traversed through a network. An analyst would be able to determine if a packet was dropped, where transmission lagged and possibly identify an anomalous route that might signal DNS poisoning/spoofying. 
 
 ## Security Leadership
 
