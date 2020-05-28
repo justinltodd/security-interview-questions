@@ -1,4 +1,6 @@
 
+## Sources
+
 * QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
 * SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
 
@@ -203,22 +205,38 @@ The risk assignment should always be re-evaluated as new technologies, processes
 48. Besides firewalls, what other devices are used to enforce network boundaries?
 
 49. What is the role of network boundaries in information security?
+    * Boundary protection is the "monitoring and control of communications at the external boundary of an information system to prevent and detect malicious and other unauthorized communication." Protection is achieved through the use of gateways, routers, firewalls, guards, and encrypted tunnels
 
-50. What does a intrusion detection system do? How does it do it?
+50. What does a intrusion detection (IDS) system do? How does it do it?
+    * An intrusion detection system (IDS) is a device or software application that monitors a network for malicious activity or policy violations. Any malicious activity or violation is typically reported or collected centrally using a security information and event management system.
 
 51. What is a honeypot? What type of attack does it defend against?
+    * A honeypot is a computer or computer system intended to mimic likely targets of cyberattacks. It can be used to detect attacks or deflect them from a legitimate target. It can also be used to gain information about how cybercriminals operate.
 
 52. What technologies and approaches are used to secure information and services deployed on cloud computing infrastructure?
 
 53. What information security challenges are faced in a cloud computing environment?
 
 54. How does packet filtering work?
+    * A packet-filtering firewall examines each packet that crosses the firewall and tests the packet according to a set of rules that you set up. Packet filters work by inspecting the source and destination IP and port addresses contained in each Transmission Control Protocol/Internet Protocol (TCP/IP) packet
 
 55. Can you give me an overview of IP multicast?
+    * IP multicast is a method of sending Internet Protocol (IP) datagrams to a group of interested receivers in a single transmission. It is the IP-specific form of multicast and is used for streaming media and other network applications. It uses specially reserved multicast address blocks in IPv4 and IPv6.
 
 56. Can you explain the difference between a packet filtering firewall and a application layer firewall?
+    * Packet filtering is a firewall technique used to control network access by monitoring outgoing and incoming packets and allowing them to pass or halt based on the source and destination Internet Protocol (IP) addresses, protocols and ports.
+     * In computing, a stateful firewall (any firewall that performs stateful packet inspection (SPI) or stateful inspection) is a firewall that keeps track of the state of network connections (such as TCP streams, UDP communication) traveling across it.
+    * A web application firewall (WAF) is an appliance, server plugin, or filter that applies a set of rules to an HTTP conversation. Generally, these rules cover common attacks such as cross-site scripting (XSS) and SQL injection. By customizing the rules to your application, many attacks can be identified and blocked.
 
 57. What are the layers of the OSI model?
+    * The 7 Layers of the OSI
+      * Layer 7 - Application.
+      * Layer 6 - Presentation.
+      * Layer 5 - Session.
+      * Layer 4 - Transport.
+      * Layer 3 - Network.
+      * Layer 2 - Data Link.
+      * Layer 1 - Physical.
 
 57. How would traceroute help you find out where a breakdown in communication is?
     * Traceroute uses the TTL field in an IP header of a packet to determine how many "hops" a packet as traversed through a network. An analyst would be able to determine if a packet was dropped, where transmission lagged and possibly identify an anomalous route that might signal DNS poisoning/spoofying. 
