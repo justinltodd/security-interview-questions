@@ -134,18 +134,26 @@ The risk assignment should always be re-evaluated as new technologies, processes
     * Vulnerability scanning is an inspection of the potential points of exploit on a computer or network to identify security holes. A vulnerability scan detects and classifies system weaknesses in computers, networks and communications equipment and predicts the effectiveness of countermeasures.
 
 27. What is captured in a security assessment plan (security test plan)?
+    * The security assessment plan documents the controls and control enhancements to be assessed, based on the purpose of the assessment and the implemented controls identified and described in the system security plan. The security assessment plan defines the scope of the assessment, in particular indicating whether a complete or partial assessment will be performed and if the assessment is intended to support initial pre-authorization activities associated with a new or significantly changed system or ongoing assessment used for operational systems. The security assessment plan also describes the procedures to be used for each control—typically drawn from Special Publication 800-53A or from available assessment cases and tailored as necessary to satisfy organizational or system-specific requirements—including the selection of assessment methods and objects and assigned depth and coverage attributes. 
 
 ## Access Control
 
 28. What is the difference between authentication and authorization?
+    * Authentication means confirming your own identity, while authorization means granting access to the system. In simple terms, authentication is the process of verifying who you are, while authorization is the process of verifying what you have access to.
 
 29. What types of information can be used for authentication?
+    * Type 1 – *Something You Know* – includes passwords, PINs, combinations, code words, or secret handshakes. Anything that you can remember and then type, say, do, perform, or otherwise recall when needed falls into this category.
+    * Type 2 – *Something You Have* – includes all items that are physical objects, such as keys, smart phones, smart cards, USB drives, and token devices. (A token device produces a time-based PIN or can compute a response from a challenge number issued by the server.).
+    * Type 3 – *Something You Are* – includes any part of the human body that can be offered for verification, such as fingerprints, palm scanning, facial recognition, retina scans, iris scans, and voice verification.
 
 30. What is role-based access control?
+    * Role-based access control (RBAC) refers to the idea of assigning permissions to users based on their role within an organization. It provides fine-grained control and offers a simple, manageable approach to access management that is less prone to error than assigning permissions to users individually.
 
 31. What is meant by the term "least privilege"?
+    * The principle of least privilege works by allowing only enough access to perform the required job. In an IT environment, adhering to the principle of least privilege reduces the risk of attackers gaining access to critical systems or sensitive data by compromising a low-level user account, device, or application.
 
 32. What is two-factor authentication? Does it require special hardware?
+    * Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. ... Two-step verification or two-step authentication is a method of confirming a user's claimed identity by utilizing something they know (password) and a second factor other than something they have or something they are.
 
 ## Security Architecture
 
@@ -250,6 +258,8 @@ The risk assignment should always be re-evaluated as new technologies, processes
 78. How does the SSL Protocol work?
 
 79. What is the difference between symmetric-key cryptography and public-key cryptography?
+    * Symmetric cryptography: 1 key for both encryption and decryption.
+    * Asymmetric cryptography: 2 keys, a public and a private key. can be used two ways:. one way for confidentiality and another for integrity.
 
 80. Can you give me an overview of how public-key cryptography works?
 
