@@ -92,7 +92,12 @@ The risk assignment should always be re-evaluated as new technologies, processes
     * IT incident management is an area of IT service management (ITSM) wherein the IT team returns a service to normal as quickly as possible after a disruption, in a way that aims to create as little negative impact on the business as possible.
     * Security incident management focuses heavily on resolving incidents quickly to ensure that employees and users alike aren’t hit with too much downtime. By identifying, managing, recording and analyzing security threats or incidents in real-time, security incident management provides a robust and comprehensive view of any security issues within an IT infrastructure. 
 
-17. What is business continuity management? How does it relate to security?
+17. Why is DNS monitoring important?
+    * DNS plays an important role in connecting end users to the internet. Each connection made to a domain by the client devices is recorded in the DNS logs. Inspecting DNS traffic between client devices and your local resolver could reveal information for forensic analysis as well as discovering malicious activity/connections on your network such as:
+      * botnets
+      * DDOS attack detections
+      * malicious domains
+      * dynamic domains
 
 18. What is a security control?
     * A safeguards or countermeasure to avoid, detect, counteract, or minimize security risks.
