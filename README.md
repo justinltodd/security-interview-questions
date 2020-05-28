@@ -201,6 +201,7 @@ The risk assignment should always be re-evaluated as new technologies, processes
 ## Network
 
 47. What is a firewall?
+    * A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
 
 48. Besides firewalls, what other devices are used to enforce network boundaries?
 
@@ -280,6 +281,8 @@ The risk assignment should always be re-evaluated as new technologies, processes
 74. Have you performed a vulnerability assessment? What types of vulnerabilities are most difficult to identify?
 
 75. In the context of a vulnerability assessment, how do you calculate the probability that a vulnerability will be exploited?
+    * The Common Vulnerability Scoring System (CVSS) is a free and open industry standard for assessing the severity of computer system security vulnerabilities. CVSS attempts to assign severity scores to vulnerabilities, allowing responders to prioritize responses and resources according to threat.
+    * Exploit Prediction Scoring System (EPSS)
 
 76. Can you give me an example of a time you identified and implemented controls to mitigate a risk? How did you evaluate the controls?
 
