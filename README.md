@@ -3,65 +3,106 @@ REF: https://quizlet.com/231268221/general-information-security-questions-flash-
 ## Basic Concepts
 
 1. What is information security and how is it achieved?
-   * Information Security refers to the processes and methodologies which are designed and implemented to protect print, electronic, or any other form of confidential, private and sensitive information or data from unauthorized access, use, misuse, disclosure, destruction, modification, or disruption.
+    * Information Security refers to the processes and methodologies which are designed and implemented to protect print, electronic, or any other form of confidential, private and sensitive information or data from unauthorized access, use, misuse, disclosure, destruction, modification, or disruption.
 
 2. What are the core principles of information security?
-   * CIA triad. CIA stands for confidentiality, integrity, and availability and these are the three main objectives of information security. 
-   * Authentication and Non-repudiation
+    * CIA triad. CIA stands for confidentiality, integrity, and availability and these are the three main objectives of information security. 
+    * Authentication and Non-repudiation
 
 3. What is non-repudiation (as it applies to IT security)?
    * Non-repudiation is the assurance that someone cannot deny the validity of something. 
-   * Non-repudiation is a legal concept that is widely used in information security and refers to a service, which provides proof of the origin of data and the integrity of the data.
-   * The concept that every service or process should provide proof of the integrity (such as a signature) and origin of data. It is a aspect of information security because it ensures the integrity of data, processes, and transmissions
+    * Non-repudiation is a legal concept that is widely used in information security and refers to a service, which provides proof of the origin of data and the integrity of the data.
+    * The concept that every service or process should provide proof of the integrity (such as a signature) and origin of data. It is a aspect of information security because it ensures the integrity of data, processes, and transmissions
 
 4. What is the relationship between information security and data availability?
-   * Information security encompasses the tactics and processes used to protect data and ensure that only authenticated and approved users have access to authorized data. Information security cannot inhibit authorized users from access, but it must protect data from unauthorized access or theft using logical and physical controls.
+    * Information security encompasses the tactics and processes used to protect data and ensure that only authenticated and approved users have access to authorized data. Information security cannot inhibit authorized users from access, but it must protect data from unauthorized access or theft using logical and physical controls.
 
 5. What is a security policy and why do we need one?
-   * A document that governs how, when, and why users may access and interact with information systems. It provides users with reasonable expectations of their roles and responsibilities, as well as serves as a guidance for procedural actions.
+    * A document that governs how, when, and why users may access and interact with information systems. It provides users with reasonable expectations of their roles and responsibilities, as well as serves as a guidance for procedural actions.
 
 6. What is the difference between logical and physical security? Can you give an example of both?
-   * Protecting the people involves a combination of physical and logical security. Physical security keeps them safe by allowing only authorized individuals into the building. Logical security protects their computers and data from unauthorized access.
-   * Logical security protects computer software by discouraging user access by implementing user identifications, passwords, authentication,and biometrics. Physical security prevents and discourages attackers from entering a building by installing fences, alarms, cameras, security guards, electronic access control, intrusion detection and administration access controls. The difference between logical security and physical security is logical security protects access to computer systems and physical security protects the site and everything located within the site.
+    * Protecting the people involves a combination of physical and logical security. Physical security keeps them safe by allowing only authorized individuals into the building. Logical security protects their computers and data from unauthorized access.
+    * Logical security protects computer software by discouraging user access by implementing user identifications, passwords, authentication,and biometrics. Physical security prevents and discourages attackers from entering a building by installing fences, alarms, cameras, security guards, electronic access control, intrusion detection and administration access controls. The difference between logical security and physical security is logical security protects access to computer systems and physical security protects the site and everything located within the site.
 
 7. Is there an acceptable level of risk?
-  * A level of risk mitigates as much risk as possible while still enabling the business to operate at optimum levels.
+    * A level of risk mitigates as much risk as possible while still enabling the business to operate at optimum levels.
 The risk assignment should always be re-evaluated as new technologies, processes, and the threat environment changes.
 
 8. How do you measure risk? Can you give an example of a specific metric that measures information security risk?
-   * Risk is calculated by multiplying the threat likelihood value by the impact value, and the risks are categorized as high, medium or low based on the result.  ISO Standard 27005 (Information Security Risk Management - ISRM)
-   * 
+    * Risk is calculated by multiplying the threat likelihood value by the impact value, and the risks are categorized as high, medium or low based on the result.  ISO Standard 27005 (Information Security Risk Management - ISRM)
+    * 
 
 9. Can you give me an example of risk trade-offs (e.g. risk vs cost)?
 
 10. What are the most common types of attack that threaten enterprise data security?
-   * Insider Threats
-   * Ransomware
-   * Malware that enables data exfiltration,
-   * Scripting attacks (XSS, cross site forgery)
-   * Injection Attacks (SQL/ javascript)
+    * Insider Threats
+    * Ransomware
+    * Malware that enables data exfiltration,
+    * Scripting attacks (XSS, cross site forgery)
+    * Injection Attacks (SQL/ javascript)
 
 11. What is the difference between a threat and a vulnerability?
+    * A vulnerability is weakness in a system, site, or process that a threat may take advantage of. A threat is any entity or process that manipulates a weaknesses to commit unauthorized actions or attain unauthorized access to an information system.
 
 12. Can you give me an example of common security vulnerabilities?
+    * Cross Site Scripting
+    * SQL Injections
+    * Cross Site Forgery 
+    * Buffer Overflows 
+    * Poor Encryption/ No Encryption 
+    * mis-configured firewall rules 
+    * poor access control / active domain rules policies.
 
 13. Are you familiar with any security management frameworks such as ISO/IEC 27002?
+    * ISO/IEC 270002
+    * NIST SP 800-53: Nist Cyber Security framework
+    * SOC 2/3
+    * PCI-DSS
+    * HIPAA
+    * NERC-CIP
+    * FFIEC
 
 14. Can you briefly discuss the role of information security in each phase of the software development lifecycle?
+    * Requirements Gathering
+      * Security Requirements
+      * Setting up Phase Gates
+      * Risk Assessment
+    * Design
+      * Identify Design Requirements from security perspective
+      * Architecture & Design Reviews
+      * Threat Modeling
+    * Coding
+      * Coding Best Practices
+      * Perform Static Analysis
+    * Testing
+      * Vulnerability Assessment
+      * Fuzzing
+    * Deployment
+      * Server Configuration Review
+      * Network Configuration Review
 
 15. Can you describe the role of security operations in the enterprise?
+    * A SOC is an organized and highly skilled team whose mission is to monitor and improve an organization's cybersecurity posture while preventing, detecting, analyzing, and responding to cyber security incidents using both technology and precise procedures.
 
 16. What is incident management?
+    * IT incident management is an area of IT service management (ITSM) wherein the IT team returns a service to normal as quickly as possible after a disruption, in a way that aims to create as little negative impact on the business as possible.
+     * Security incident management focuses heavily on resolving incidents quickly to ensure that employees and users alike aren’t hit with too much downtime. By identifying, managing, recording and analyzing security threats or incidents in real-time, security incident management provides a robust and comprehensive view of any security issues within an IT infrastructure. 
 
 17. What is business continuity management? How does it relate to security?
 
 18. What is a security control?
+    * A safeguards or countermeasure to avoid, detect, counteract, or minimize security risks.
 
 19. What are the different types of security control?
+    * Logical Security Controls
+    * Physical Security Controls
+    * Procedural Security Controls
 
 20. Can you describe the information lifecycle? How do you ensure information security at each phase?
+    * It is the way that information is properly managed throughout its life cycle in order to get the full use and benefit from it. Includes Plan, Obtain, Store/Share, Maintain, Apply, and Dispose
 
 21. What is Information Security Governance?
+    * IT security governance is the system by which an organization directs and controls IT security (adapted from ISO 38500).     * Governance specifies the accountability framework and provides oversight to ensure that risks are adequately mitigated, while management ensures that controls are implemented to mitigate risks.
 
 22. What are your professional values? Why are professional ethics important in the information security field?
 
