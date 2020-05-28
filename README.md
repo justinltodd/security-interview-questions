@@ -102,13 +102,20 @@ The risk assignment should always be re-evaluated as new technologies, processes
     * It is the way that information is properly managed throughout its life cycle in order to get the full use and benefit from it. Includes Plan, Obtain, Store/Share, Maintain, Apply, and Dispose
 
 21. What is Information Security Governance?
-    * IT security governance is the system by which an organization directs and controls IT security (adapted from ISO 38500).     * Governance specifies the accountability framework and provides oversight to ensure that risks are adequately mitigated, while management ensures that controls are implemented to mitigate risks.
+    * IT security governance is the system by which an organization directs and controls IT security (adapted from ISO 38500).
+    * Governance specifies the accountability framework and provides oversight to ensure that risks are adequately mitigated, while management ensures that controls are implemented to mitigate risks.
 
 22. What are your professional values? Why are professional ethics important in the information security field?
 
 ## Security Audits and Testing
 
 23. What is an IT security audit?
+    * At its root, an IT security audit includes two different assessments. The manual assessment occurs when an internal or external IT security auditor interviews employees, reviews access controls, analyzes physical access to hardware, and performs vulnerability scans. These reviews should occur, at a minimum, annually. Some organizations, however, prefer to do them more frequently.
+    * While some apply broadly to the IT industry, many are more sector-specific, pertaining directly, for instance, to healthcare or financial institutions. Below is a short list of some of the most-discussed IT security standards in existence today.
+      * ISO Compliance: The International Organization for Standardization (ISO) develops and publishes an array of guidelines designed to ensure quality, reliability, and safety. The ISO/IEC 27000 family of standards are some of the most relevant to system administrators, as these standards focus on keeping information assets secure. The ISO/IEC 27001 is known for its information security management system requirements.
+      * HIPAA Security Rule: The HIPAA Security Rule outlines specific guidelines pertaining to exactly how organizations should protect patients’ electronic personal health information.
+      * PCI DSS Compliance: The PCI DSS compliance standard applies directly to companies dealing with any sort of customer payment. Think of this standard as the requirement responsible for making sure your credit card information is protected every time you conduct a transaction.
+      * SOX Compliance: The SOX Act, known more formally as the Sarbanes-Oxley Act after its sponsors Senator Paul Sarbanes (D-MD) and Representative Michael G. Oxley (R-OOH-4), was passed in 2002 following the highly publicized Enron scandal. The goal was to protect investors by requiring all public companies to provide accurate, reliable financial disclosures on an annual basis.
 
 24. How do you test information security?
 
@@ -118,7 +125,8 @@ The risk assignment should always be re-evaluated as new technologies, processes
 
 27. What is captured in a security assessment plan (security test plan)?
 
-Access Control
+## Access Control
+
 28. What is the difference between authentication and authorization?
 
 29. What types of information can be used for authentication?
