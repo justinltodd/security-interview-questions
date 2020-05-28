@@ -1,4 +1,5 @@
-Basic Concepts
+## Basic Concepts
+
 1. What is information security and how is it achieved?
 
 2. What are the core principles of information security?
@@ -43,7 +44,8 @@ Basic Concepts
 
 22. What are your professional values? Why are professional ethics important in the information security field?
 
-Security Audits and Testing
+## Security Audits and Testing
+
 23. What is an IT security audit?
 
 24. How do you test information security?
@@ -65,7 +67,8 @@ Access Control
 
 32. What is two-factor authentication? Does it require special hardware?
 
-Security Architecture
+## Security Architecture
+
 33. Why are open standards important to security solutions?
 
 34. How do you balance demands from different stakeholders who have conflicting requirements?
@@ -94,7 +97,8 @@ Security Architecture
 
 46. Have you worked on a project in which stakeholders choose to accept identified security risks that worried you? How did you handle the situation?
 
-Network
+## Network
+
 47. What is a firewall?
 
 48. Besides firewalls, what other devices are used to enforce network boundaries?
@@ -117,7 +121,8 @@ Network
 
 57. What are the layers of the OSI model?
 
-Security Leadership
+## Security Leadership
+
 58. How do you ensure that solution architects develop secure solutions?
 
 59. What training do solution architects need to have in regards to IT security? What about developers?
@@ -142,7 +147,8 @@ Security Leadership
 
 69. Can you give me an example of some emerging trends in information security that you're keeping an eye on?
 
-Experience
+## Experience
+
 70. Have you developed an incident response plan?
 
 71. Have you been involved in supporting incident investigations? What was your role? What was the outcome?
@@ -159,7 +165,8 @@ Experience
 
 77. How do you stay up-to-date with technology? For example, how do you keep up with new information security threats?
 
-Cryptography
+## Cryptography
+
 78. How does the SSL Protocol work?
 
 79. What is the difference between symmetric-key cryptography and public-key cryptography?
@@ -176,14 +183,15 @@ Cryptography
 
 85. Does IPsec replace the need for SSL?
 
-Security Incident Management
+## Security Incident Management
 86. What are the components of ITIL incident management?
 
 87. If our organization experienced a major security incident, what steps should we take to manage the incident?
 
 88. Can you describe the responsibilities of an incident manager?
 
-Threats
+## Threats
+
 89. In your opinion, what are the top five information security threats facing an organization such as ours?
 
 90. What is a man-in-the-middle attack?
@@ -196,7 +204,8 @@ Threats
 
 94. What is clickjacking?
 
-Vulnerabilities
+## Vulnerabilities
+
 95. What is a insecure direct object reference? Why is it a problem?
 
 96. Why is it important to validate redirects and forwards?
@@ -207,7 +216,7 @@ Vulnerabilities
 
 99. How can improper error handling expose security vulnerabilities? How?
 
-Physical Security Integration
+## Physical Security Integration
 100. Can you give me a few examples of physical security integration?
 
 101. What is social engineering? How common is it?
