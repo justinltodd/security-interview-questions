@@ -1,5 +1,6 @@
-**QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
-**SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+
+* QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
+* SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
 
 ## Sources for Information Security News:
    * Various places. Primarily Security Weekly Podcast (Paul Assadorian), google, Krebs On Security (Sometimes) and Daniel Miessler of danielmiessler.com.
