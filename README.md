@@ -1,5 +1,9 @@
 REF: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
 
+## Sources for Information Security News:
+   * Various places. Primarily Security Weekly Podcast (Paul Assadorian), google, Krebs On Security (Sometimes) and Daniel Miessler of danielmiessler.com.
+   
+
 ## Basic Concepts
 
 1. What is information security and how is it achieved?
@@ -106,6 +110,7 @@ The risk assignment should always be re-evaluated as new technologies, processes
     * Governance specifies the accountability framework and provides oversight to ensure that risks are adequately mitigated, while management ensures that controls are implemented to mitigate risks.
 
 22. What are your professional values? Why are professional ethics important in the information security field?
+    * With great power comes great responsibility. Security professionals are given an exceptional amount of access to organizational IT infrastructure and they are often incredibly trusted. It's very important that security professionals act in an ethical and honest manner to protect the business and it's stakeholders.
 
 ## Security Audits and Testing
 
@@ -118,10 +123,15 @@ The risk assignment should always be re-evaluated as new technologies, processes
       * SOX Compliance: The SOX Act, known more formally as the Sarbanes-Oxley Act after its sponsors Senator Paul Sarbanes (D-MD) and Representative Michael G. Oxley (R-OOH-4), was passed in 2002 following the highly publicized Enron scandal. The goal was to protect investors by requiring all public companies to provide accurate, reliable financial disclosures on an annual basis.
 
 24. How do you test information security?
+    * Penetration testing: This kind of testing simulates an attack from a malicious hacker. This testing involves analysis of a particular system to check for potential vulnerabilities to an external hacking attempt. 
+    * Risk Assessment: This testing involves analysis of security risks observed in the organization.
 
 25. What is the difference between black box and white box penetration testing?
+    *  Black-Box engagement, the consultant does not have access to any internal information and is not granted internal access to the client’s applications or network. It is the job of the consultant to perform all reconnaissance to obtain the sensitive knowledge needed to proceed, which places them in a role as close to the typical attacker as possible. This type of testing is the most realistic, but also requires a great deal of time and has the greatest potential to overlook a vulnerability that exists within the internal part of network or application. 
+    *  White-Box testing, which allows the security consultant to have complete open access to applications and systems. This allows consultants to view source code and be granted high-level privilege accounts to the network. The purpose of white-box testing is to identify potential weaknesses in various areas such as logical vulnerabilities, potential security exposures, security misconfigurations, poorly written development code, and lack-of-defensive measures. This type of assessment is more comprehensive, as both internal and external vulnerabilities are evaluated from a “behind the scenes” point of view that is not available to typical attackers.
 
 26. What is a vulnerability scan?
+    * Vulnerability scanning is an inspection of the potential points of exploit on a computer or network to identify security holes. A vulnerability scan detects and classifies system weaknesses in computers, networks and communications equipment and predicts the effectiveness of countermeasures.
 
 27. What is captured in a security assessment plan (security test plan)?
 
