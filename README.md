@@ -86,7 +86,7 @@ The risk assignment should always be re-evaluated as new technologies, processes
 
 16. What is incident management?
     * IT incident management is an area of IT service management (ITSM) wherein the IT team returns a service to normal as quickly as possible after a disruption, in a way that aims to create as little negative impact on the business as possible.
-     * Security incident management focuses heavily on resolving incidents quickly to ensure that employees and users alike aren’t hit with too much downtime. By identifying, managing, recording and analyzing security threats or incidents in real-time, security incident management provides a robust and comprehensive view of any security issues within an IT infrastructure. 
+    * Security incident management focuses heavily on resolving incidents quickly to ensure that employees and users alike aren’t hit with too much downtime. By identifying, managing, recording and analyzing security threats or incidents in real-time, security incident management provides a robust and comprehensive view of any security issues within an IT infrastructure. 
 
 17. What is business continuity management? How does it relate to security?
 
