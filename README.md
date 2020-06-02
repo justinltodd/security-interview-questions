@@ -3,6 +3,9 @@
 
 * QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
 * SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+* Offensive Security (OSCP): https://411hall.github.io/OSCP-Preparation/
+    * https://medium.com/@falconspy/oscp-exam-attempt-1-1893df5a0a00
+* VulnHub - LABS: https://www.vulnhub.com/
 
 ## Sources for Information Security News:
    * Various places. Primarily Security Weekly Podcast (Paul Assadorian), google, Krebs On Security (Sometimes) and Daniel Miessler of danielmiessler.com.
